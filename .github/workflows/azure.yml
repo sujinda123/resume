@@ -13,7 +13,7 @@ jobs:
         
     steps:
       - name: Checkout
-        uses: actions/resume@v1
+        uses: actions/checkout@v1
 
       - name: Install and Build 
         run: |
